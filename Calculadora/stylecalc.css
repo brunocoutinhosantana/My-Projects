@@ -1,0 +1,57 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,black, crimson);
+    height: 100vh;
+}
+.geral {
+    width: 250px;
+    height: 470px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: black;
+}
+.tela {
+    font-size: 35px;
+    color: white;
+    width: auto;
+    height: 150px;
+    text-align:end;
+    margin: 8px;
+}
+.op1,.op2,.op3,.op4 {
+    padding: 2px;
+    display: flex;
+    justify-content: column;
+}
+.ac, .neg, .porc, .div, .seven, .eight, .nine, .mult, .four, .five, .six, .sub, .one, .two, .three, .som, .zero, .point, .equals {
+    font-size: 30px;
+    flex: 1;
+    margin: 4px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(82, 82, 87);
+    cursor: pointer;    
+}
+.zero {
+    flex: 2;
+    width: 110px;
+    border-radius: 30%;
+    text-align:center;
+
+}
+.ac, .neg, .porc {
+    font-size: 30px;
+    color: black;
+    background-color: gray;
+}
+.div, .mult, .sub, .som, .equals {
+    background-color: orange;
+}
+
