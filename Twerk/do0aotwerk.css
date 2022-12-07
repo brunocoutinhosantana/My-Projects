@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Silk-Serif';
+    src: url('Font/Silk-Serif-ExtraLight.ttf') format('truetype');
+    font-weight: normal; font-style: normal; 
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+.home {
+    background-size: cover;
+    padding: 150px;
+    display: flex;
+    height: 500px;
+}
+.homeLeft {
+    width: 50%;
+    color: #FFF;
+    font-family: 'Silk-Serif';
+    line-height: 1;
+}
+.title {
+    font-size: 65px;
+    margin: 30px;
+    color: #E0B456;
+}
+.subtitle {
+    font-size: 30px;
+    margin: 30px;
+}
+.sub1 {
+    font-size: 35px;
+    margin: 30px;
+}
+.buy {
+    width: auto;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+    border: solid 1px #FFF;
+    text-align: center;
+    border-radius: 5px;   
+}
+.buy a:hover {
+    font-weight: bold;
+    background-color: #E0B456;
+    color: black;
+    border: solid 3px black;
+    box-shadow: 0px 0px 22px #d3a859;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.icons i{
+    margin: 10px;
+}
+.homeRight {
+    width: 50%;
+}
+.homeRight img {
+    width: 100%;
+    height: 700px;
+    opacity: 0.5;
+}
+.content {
+    color: #FFF;
+    padding: 150px;
+    font-family: 'Silk-Serif';
+    line-height: 1;
+    font-size: 30px;
+}
+.contentInside {
+    border-top: solid 1px #E0B456;
+}
+.content1 {
+    margin: 50px;
+}
+.box {
+    display: flex;
+    justify-content: center;   
+}
+.boxContent {
+    display: flex;
+    background-color: #3333334f;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    width: 450px;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 1px #3333334f;
+}
+.boxContent:hover {
+    border: solid 1px #E0B456;
+}
+.now {
+    margin: 50px;
+    line-height: 1.5;
+}
+.points {
+    margin: 50px;
+    line-height: 1.5;
+}
+li {
+    list-style-image: url(Images/peach.png);
+    font-size: 25px;
+}
+.moduleHead {
+    padding: 50px;
+}
+.moduleTitle {
+    text-align: center;
+    font-size: 40px;
+}
+.moduleSubtitle {
+    text-align: center;
+    font-size: 60px;
+    color: #E0B456;
+}
+.module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modules {
+    width: 60%;
+    border-top: solid 1px #E0B456;
+    border-bottom: solid 1px #E0B456;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.modulesContent {
+    opacity: 0.5;
+    margin: 5px;
+}
+.price {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.priceInter {
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+small {
+    text-align: center;
+    font-size: 25px;
+}
+.priceInter i {
+    font-size: 30px;
+    color:#E0B456;
+}
+.price1 {
+    width: 60%;
+    border: solid 1px #E0B456;
+}
+.price1:hover {
+    border: solid 3px #E0B456;
+}
+.bonus {
+    padding: 10px;
+}
+.bonusInter {
+    color: #E0B456;
+    padding: 10px;
+    text-align: center;
+}
+.bonusContent {
+    padding: 10px;
+    text-align: center;
+}
+.depoiments {
+    width: 100%;
+    color: #FFF;
+    font-family: 'Silk-Serif';
+    line-height: 1;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.depoimentsTitle {
+    text-align: center;
+    margin: 30px;
+    font-size: 35px;
+}
+.depoimentsContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.depoimentsContent div {
+    box-shadow: 0px 0px 50px #d3a859;
+    padding: 23px;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 1;
+}
+@media (max-width: 1150px) {
+    .home {
+        padding: 50px;
+        width: 100%;
+        height: auto;
+    } 
+}
+@media (max-width: 900px) {
+    .home {
+        padding: 50px;
+        display:flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        width: 500px;
+        height: auto;
+    }
+    .homeRight {
+        width: 500px;
+        height: 700px;
+        
+    }
+    .homeRight img {
+        width: 500px;
+        height: 700px;
+    }
+    .homeLeft {
+        width: 600px;
+        color: #FFF;
+        font-family: 'Silk-Serif';
+        line-height: 1;
+    }
+    .content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 600px;
+        height: 1200px;
+    }
+    .depoimentsContent {
+        display: block;
+    }
+    
+}
