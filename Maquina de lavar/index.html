@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquina de lavar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vamos lavar roupas</h1>
+    <picture class="machine">
+        <img src="Images\Maquina.jpg">
+    </picture>
+    <div class="container">
+        <label>Selecione a capacidade da máquina de lavar:
+            <select name="capacity" id="capacity" onchange="upDate()">
+                <option value="6">6Kg</option>
+                <option value="9">9Kg</option>
+                <option value="10" selected>10Kg</option>
+                <option value="12">12Kg</option>
+                <option value="13">13Kg</option>
+                <option value="17">17Kg</option>
+            </select>
+        </label>
+        <table>
+            <tr class="one">
+                <th>Dia a dia:</th>
+                <th>Peso unitário (g)</th>
+                <th>Quantidade</th>
+                <th>Total (Kg)</th>
+            </tr>
+            <tr>
+                <td>Camisa</td>
+                <td>250</td>
+                <td><input type="number" onclick="growKg(250)"></td>
+                <td class="totKg">0</td>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>150</td>
+                <td><input type="number" onclick="growKg(150)"></td>
+                <td class="totKg">0</td>
+            </tr>
+            <tr>
+                <td>Conjunto moletom adulto</td>
+                <td>700</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr class="two">
+                <th>Roupas íntimas/delicadas:</th>
+                <th>Peso unitário (g)</th>
+                <th>Quantidade</th>
+                <th>Total (Kg)</th>
+            </tr>
+            <tr>
+                <td>Roupa de dormir (Pijama)</td>
+                <td>500</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Peça íntima</td>
+                <td>50</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Fralda</td>
+                <td>50</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr class="three">
+                <th>Jaquetas/Casacos/Jeans:</th>
+                <th>Peso unitário (g)</th>
+                <th>Quantidade</th>
+                <th>Total (Kg)</th>
+            </tr>
+            <tr>
+                <td>Jaqueta Jeans</td>
+                <td>800</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Calça jeans adulto</td>
+                <td>700</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Calça jeans infantil</td>
+                <td>400</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr class="four">
+                <th>Mesa:</th>
+                <th>Peso unitário (g)</th>
+                <th>Quantidade</th>
+                <th>Total (Kg)</th>
+            </tr>
+            <tr>
+                <td>Pano de prato</td>
+                <td>50</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Toalha de mesa grande</td>
+                <td>500</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Toalha de mesa pequena</td>
+                <td>250</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr class="five">
+                <th>Cama/Banho:</th>
+                <th>Peso unitário (g)</th>
+                <th>Quantidade</th>
+                <th>Total (Kg)</th>
+            </tr>
+            <tr>
+                <td>Lençol casal</td>
+                <td>800</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Lençol solteiro</td>
+                <td>300</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Toalha de banho</td>
+                <td>500</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Toalha de rosto</td>
+                <td>200</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Toalha para pés</td>
+                <td>300</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Fronha</td>
+                <td>50</td>
+                <td><input type="number"></td>
+                <td>...</td>
+            </tr>
+        </table>
+        <div class="resultado">
+            <div class="msg">Sua máquina de lavar está cheia!
+                <img class="dirtyclothes" src="Images\Trouxa.jpg">
+            </div>
+             <br>
+            <label class="total">Total(Kg):</label> <br>
+            <div>Você irá gastar entre 82L a 135L de água para esta lavagem.</div>
+            <button>LAVAR</button> <br>
+        </div>
+    </div>
+    <footer>Criado por Bruno Coutinho</footer>
+    <script src="maquina.js"></script>
+</body>
+</html>
