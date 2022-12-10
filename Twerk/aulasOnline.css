@@ -22,7 +22,7 @@ body {
 .title {
     font-size: 65px;
     margin: 30px;
-    color: #E0B456;
+    color: #A7161b;
 }
 .subtitle {
     font-size: 30px;
@@ -50,10 +50,10 @@ body {
 }
 .buy a:hover {
     font-weight: bold;
-    background-color: #E0B456;
+    background-color: #A7161b;
     color: black;
     border: solid 3px black;
-    box-shadow: 0px 0px 22px #d3a859;
+    box-shadow: 0px 0px 22px #A7161b;
 }
 .icons {
     display: flex;
@@ -79,7 +79,7 @@ body {
     font-size: 30px;
 }
 .contentInside {
-    border-top: solid 1px #E0B456;
+    border-top: solid 1px #A7161b;
 }
 .now {
     margin: 50px;
@@ -113,16 +113,16 @@ small {
 }
 .price1 {
     width: 60%;
-    border: solid 1px #E0B456;
+    border: solid 1px #A7161b;
 }
 .price1:hover {
-    border: solid 3px #E0B456;
+    border: solid 3px #A7161b;
 }
 .bonus {
     padding: 10px;
 }
 .bonusInter {
-    color: #E0B456;
+    color: #A7161b;
     padding: 10px;
     text-align: center;
 }
