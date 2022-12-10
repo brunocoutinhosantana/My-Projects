@@ -113,7 +113,7 @@ body {
     line-height: 1.5;
 }
 #now {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,7 +261,6 @@ small {
     }
     .price {
         padding: 0 0 20px;
-        margin-left: 50px;
     }
     .priceInter {
         font-size: 40px;
@@ -283,5 +282,8 @@ small {
         margin: 0;
         width: 600px;
         height: 1200px;
+    }
+    .boxContent {
+        height: auto;
     }
 }
