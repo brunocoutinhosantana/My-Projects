@@ -235,16 +235,16 @@ small {
         display:flex;
         flex-direction:column-reverse;
         align-items: center;
-        width: 500px;
+        width: 480px;
         height: auto;
     }
     .homeRight {
-        width: 500px;
+        width: 480px;
         height: 700px;
         
     }
     .homeRight img {
-        width: 500px;
+        width: 480px;
         height: 700px;
     }
     .homeLeft {
