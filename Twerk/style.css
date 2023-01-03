@@ -219,6 +219,9 @@ footer i {
 footer i:hover {
     color: green;
 }
+.logoHidden {
+    display: none;
+}
 @media (max-width: 1360px) {
     
     .nameInter {
