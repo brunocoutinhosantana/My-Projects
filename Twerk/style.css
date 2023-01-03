@@ -93,11 +93,10 @@ img {
 .name {
     margin-left: -60px;
 }
-.nameInter {
-    color: #FFF;
-    font-size: 100px;
-    font-family: 'Silk-Serif';
-    line-height: 1;
+.logo {
+    margin-left: -50px;
+    width: 700px;
+    height: 320px;
 }
 .subtitle {
     color: #FFF;
@@ -223,10 +222,12 @@ footer i:hover {
 @media (max-width: 1360px) {
     
     .nameInter {
-        font-size: 70px;
+        text-align: center;
     }
-    .subtitle {
-        font-size: 28px;
+    .logo {
+        margin-left: 0px;
+        width: 500px;
+        height: 229px;
     }
 }
 @media (max-width: 900px) {
