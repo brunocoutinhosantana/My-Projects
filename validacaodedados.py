@@ -1,4 +1,4 @@
-c = str(input('Informe seu sexo: [M/F] ')).upper()
+c = str(input('Informe seu sexo: [M/F] ')).upper().strip()[0]
 while c != 'M' and c != 'F':
     c = str(input('Dados inválidos. Pro favor, informe seu sexo: ')).upper()
 if c == 'M':
