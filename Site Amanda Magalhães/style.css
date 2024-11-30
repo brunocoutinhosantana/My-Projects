@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Silk-Serif';
+    src: url('Font/Silk-Serif-ExtraLight.ttf') format('truetype');
+    font-weight: normal; font-style: normal; 
+}
+.inside {
+    background-color: black;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    width: 640px;   
+    padding: 40px;
+}
+.window {
+    background-color: black;
+    margin: 30px;
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 1px;
+}
+.close {
+    text-align: end;
+    cursor: pointer;
+    margin: -20px;
+}
+.courseWindowArea {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all ease .5s;
+}
+.title {
+    font-size: 40px;
+    font-family: 'Silk-Serif';
+    padding: 10px;
+}
+.descrition {
+    font-size: 18px;
+    font-family: 'Silk-Serif';
+    line-height: 1;
+    font-weight: 200;
+    padding: 10px;
+}
+button {
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 24px;
+    margin: 10px;
+    font-weight:600;
+}
+.icons {
+    text-align: right;
+}
+i {
+    color: #FFF;
+    font-size: 30px;
+    padding: 5px;
+}
+#instagram:hover {
+    color: darkmagenta;
+}
+#youtube:hover {
+    color: red;
+}
+#tiktok:hover {
+    color: blue;
+}
+body {
+    background-color:black;
+    margin: 0;
+}
+.wp-page {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    align-items: center;    
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #FFF;
+}
+.foto {
+    padding: 120px;
+    margin-top: 84px; 
+}
+img {
+    width: 600px;
+    height: 740px;
+}
+.name {
+    margin-left: -60px;
+}
+.logo {
+    margin-left: -50px;
+    width: 700px;
+    height: 320px;
+}
+.subtitle {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Silk-Serif';
+    font-style: italic;
+}
+
+.information {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: #FFF;
+}
+.information1 {
+    line-height: 1;
+    width: 50%;
+    margin-left: 120px;
+}
+.information2 {
+    padding: 100px;
+    width: 50%;
+}
+.information2 h2 {
+    padding: 15px;
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 1px 0;
+}
+#cursos {
+    color: #FFF;
+}
+#cursos h2 {
+    font-family: 'Silk-Serif';
+    text-align: center;
+    font-size: 40px;
+}
+.cursos {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;   
+}
+.cursosInter {
+    cursor: pointer;
+    min-width: 220px;
+    min-height: 220px;
+    height: 550px;
+    width: 320px;
+    margin: 10px;
+    display:grid;
+}
+#cursosInter1 {
+    background-image:url(Images/Do\ 0\ ao\ Twerk.jpeg);
+    background-size: cover;
+}
+#cursosInter2 {
+    background-image:url(Images/Segredos\ do\ Quadradinho.jpeg);
+    background-size: cover;
+}
+#cursosInter3 {
+    background-image:url(Images/Aulas\ ao\ Vivo.jpeg);
+    background-size: cover;
+}
+#cursosInter4 {
+    background-image:url(Images/Aulas\ Particulares.jpeg);
+    background-size: cover;
+}
+.conteudo {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Silk-Serif';
+    word-wrap:break-word;
+}
+.conteudo a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 50px;
+}
+.conteudo div {
+    margin: 5px;
+    font-size: 20px;
+    line-height: 1;
+}
+.photo video {
+    width: 323px;
+    height: 300px;
+    margin-left: -0px;
+    margin-right: 50px;
+    margin-bottom: -2px;
+}
+.final {
+    padding: 300px;
+    border-top: solid 1px #FFF;
+    padding-top: 100px;
+}
+.finalInter {
+    min-width: 588px;
+    border: solid #FFF 1px;
+}
+
+.space {
+    height: 50px;
+}
+footer {
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+footer i {
+    font-size: 20px;
+}
+footer i:hover {
+    color: green;
+}
+.logoHidden {
+    display: none;
+}
+@media (max-width: 1360px) {
+    
+    .nameInter {
+        text-align: center;
+    }
+    .logo {
+        margin-left: 0px;
+        width: 500px;
+        height: 229px;
+    }
+}
+@media (max-width: 900px) {
+    .homepage {
+        width: 700px;
+    }
+    body {
+        width: 700px;
+    }
+    .wp-page {
+        display: block;
+        min-width: 700px;
+        width: 100%;
+    }
+    .name {
+        margin-left: 10px;
+        border-bottom: solid 2px #FFF;
+    }
+    .foto {
+        padding: 53px;
+    }
+    img {
+        width: 600px;
+        height: 765px;
+    }
+    .information {
+        display: block;
+        padding-top: 320px;
+        min-width: 700px;
+    }
+    .information1 {
+        width: 90%;
+        padding: 30px;
+        margin-left: 0px;
+    }
+    .information2 {
+        width: 90%;
+        padding: 30px;
+        margin-left: 0px; 
+    }
+    .cursos {
+        display: block;
+        margin: 32px;
+    }
+    #cursos {
+        min-width: 700px;
+    }
+    .cursosInter {
+        height: 900px;
+        width: 550px;
+        padding: 38px;
+    }
+    .final {
+        padding: 50px;
+    }
+    .conteudo {
+        text-align: center;
+    }
+    .photo video {
+        width: 100%;
+        height: 400px;
+        margin-top: 1px;
+    }    
+    .finalInter {
+        display: flex;
+        flex-direction: column;
+        width: 312px;
+        height: auto;
+    }
+}
